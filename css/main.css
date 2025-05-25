@@ -1,0 +1,78 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+  flex-direction: column;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -90px 0px 0px 0px; 
+    flex-direction: column;
+}
+
+.welcome-window {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px; 
+}
+
+.person-photo {
+    padding: 0px 0px 0px 0px;
+}
+
+.button-info {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 234px;
+    height: 56px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #0056F6;
+}
+
+/* ABOUT */
+.main-about-nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 414px;
+    padding-top: 35px;
+}
+
+.blocks {
+    display: flex;
+    gap: 66px;
+    flex-direction: column;
+}
+
+
+.html-block {
+    width: 1000px;
+    height: 121px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 79px;
+}
+
+.css-block {
+    width: 1000px;
+    height: 121px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+.main-project {
+    padding-top: 79px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 425px;
+}
